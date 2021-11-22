@@ -23,7 +23,7 @@ To enable the Vertical Pod Autoscaler collector, please:
 
 One of the [command line arguments](./docs/cli-arguments.md) for `kube-state-metrics` is `--resources`. If this flag is omitted, a default set of Resources is enabled. This default list does **not** include Vertical Pod Autoscalers.
 
-To enable Vertical Pod Autoscalers, the `kube-state-metrics` flag `--resource` must be included when the binary is run and the list of resources must include `verticalpodautoscalers`.
+To enable Vertical Pod Autoscalers, the `kube-state-metrics` flag `--resources` must be included when the binary is run and the list of resources must include `verticalpodautoscalers`.
 
 
 ### Examples
